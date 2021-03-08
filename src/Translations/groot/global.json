@@ -1,0 +1,12 @@
+{
+  "header":{
+    "lang":"I am Groot"
+  },
+  "home":{
+    "welcome":"I am Groot.",
+    "start":"I am Groot."
+  },
+  "footer":{
+    "see":"I am Groot!"
+  }
+}

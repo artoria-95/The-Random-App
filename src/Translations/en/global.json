@@ -1,0 +1,12 @@
+{
+  "header":{
+    "lang":"Choose language"
+  },
+  "home":{
+    "welcome":"Welcome to the Random App.",
+    "start":"To start, pick a cat."
+  },
+  "footer":{
+    "see":"See more of my work!"
+  }
+}

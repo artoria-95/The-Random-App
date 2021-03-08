@@ -1,9 +1,13 @@
 import React from "react";
 import {FaWhatsappSquare, FaGithubSquare,FaLinkedin,FaReact,FaJsSquare,FaCss3Alt} from 'react-icons/fa';
+import {useTranslation} from 'react-i18next';
 
 import "./footer.css";
 
 export default function Footer() {
+  
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="foot-container">
       <div className="foot">
@@ -14,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="portfolio">
           <a href="https://artoria-95.github.io/Portfolio/" target="_blank">
-            See more of my work! &#128525;
+            {t("footer.see")} &#128525;
           </a>
         </div>
         <div className="tecnologias">

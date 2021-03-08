@@ -1,0 +1,12 @@
+{
+  "header":{
+    "lang":"Elegir idioma"
+  },
+  "home":{
+    "welcome":"Bienvenido a la Random App.",
+    "start":"Para iniciar, elige un gato."
+  },
+  "footer":{
+    "see":"¡Ve más de mis proyectos!"
+  }
+}

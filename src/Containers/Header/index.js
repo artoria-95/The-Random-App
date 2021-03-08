@@ -1,8 +1,9 @@
 import React from "react";
-import { FaRegHandPointDown } from "react-icons/fa";
+import {useTranslation} from 'react-i18next';
 import "./header.css";
 
 export default function Header() {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="header-container">
       <div className="logo">
@@ -13,10 +14,10 @@ export default function Header() {
           /> 
           <div class="dropdown-content">
             <ul>
-            <li className="change">Choose Language</li>
-            <li>English</li>
-            <li>Spanish</li>
-            <li>Nyan</li>
+            <li className="change">{t("header.lang")}</li>
+            <li onClick={()=> i18n.changeLanguage("en")}>English</li>
+            <li onClick={()=> i18n.changeLanguage("es")}>Español</li>
+            <li onClick={()=> i18n.changeLanguage("ny")}>Nyan</li>
             </ul>
           </div>
         </button>

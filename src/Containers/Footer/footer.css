@@ -41,7 +41,6 @@
 a{
   text-decoration: none;
   color: black;
-  transition: .2s;
 }
 a:hover {
   transform: scale(1.5);

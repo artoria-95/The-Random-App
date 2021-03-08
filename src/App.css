@@ -4,7 +4,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  transition: 0.4s;
+  transition: 0.2s;
   
   font-family: 'Press Start 2P', serif;
 }
@@ -15,5 +15,5 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  transition: 0.4s;
+  transition: 0.2s;
 }

@@ -1,0 +1,69 @@
+
+.header-container {
+  position: fixed;
+  top:0;
+  width: 100%;
+  left: 0;
+}
+.nya {
+  width: 2.5em;
+  padding-top: 10px;
+}
+
+.down {
+  height: 70px;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Mountains of Christmas', serif;
+  color: rgb(253, 253, 168);
+  position: relative;
+  transition: 0.4s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9b4;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+.down:hover .dropdown-content {
+  display: block;
+  transition: 0.4s;
+}
+ul {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+li {
+  text-align: left;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 3px;
+  color: black;
+}
+.change {
+  border-bottom: 2px solid black;
+}
+li:hover {
+  background-color: teal;
+}
+.change:hover {
+  background-color: unset;
+}
+
+button {
+  background-color: transparent;
+  padding: 5px;
+  margin: 5px;
+}

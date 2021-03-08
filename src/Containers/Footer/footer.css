@@ -1,0 +1,59 @@
+/*Contenedores*/
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #fe77ff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.redes, .tecnologias, .portfolio {
+  padding: 0.1em;
+} 
+
+/*Texto*/
+.redes, .tecnologias{
+  font-size: 2em;
+  margin-top: 0.2em;
+}
+.redes {
+  grid-column: 1/2;
+  text-align: left;
+}
+.portfolio {
+  grid-column: 2/3;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 1.3em;
+}
+.portfolio a:hover {
+  color: #818581;
+ 
+}
+.tecnologias {
+  grid-column: 3/4;
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: black;
+  transition: .2s;
+}
+a:hover {
+  transform: scale(1.5);
+}
+
+.in:hover {
+  color: rgb(4, 4, 207);
+
+}
+.wpp:hover {
+  color: rgb(5, 161, 5);
+}
+.gh:hover{
+  color: purple;
+}

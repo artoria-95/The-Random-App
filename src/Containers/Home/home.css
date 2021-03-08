@@ -1,0 +1,59 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cat {
+  background-color: transparent;
+ 
+}
+
+.cats-container {
+  background-color: transparent;
+  display:inline-flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.kitty {
+  width: 15rem;
+}
+.cat:hover {
+  transform: scale(1.5);
+}
+.welcome {
+  color: rgb(253, 253, 168);
+}
+.welcome p {
+  font-size: 20px;
+  margin: 2rem;
+}
+
+/* TESTING TEXT */
+/* .div1 {
+  font-family: 'VT323', serif;
+  font-size: 50px;
+  color: rgb(236, 238, 94);
+}
+
+.div2 {
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 50px;
+  color: rgb(236, 238, 94);
+}
+
+.div3 {
+  font-family: 'DotGothic16', serif;
+  font-size: 30px;
+  color: rgb(236, 238, 94);
+}
+
+.div4 {
+  
+  font-family: 'Press Start 2P', serif;
+  font-size: 30px;
+  color: rgb(236, 238, 94);
+} */
+

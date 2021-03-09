@@ -12,11 +12,11 @@ export default function Home() {
     "https://www.linkedin.com/notifications/",
   ];
   
-  function aleatoria(){
-    var i = Math.round(Math.random()*(urls.length-1));
-    window.location.href=urls[i];
-    return false;
-}// funciona con bugs
+//   function aleatoria(){
+//     var i = Math.round(Math.random()*(urls.length-1));
+//     window.location.href=urls[i];
+//     return false;
+// }// funciona con bugs
 
 
   // window.addEventListener('mousemove', (e)=>{
@@ -34,7 +34,7 @@ export default function Home() {
           <img src={cat} className="kitty" />
         </div>
         <div className="cat">
-          <a href={aleatoria()} target="_blank">
+          <a href={urls[Math.floor(Math.random()*urls.length)]} target="_blank">
             <img src={cat} className="kitty" />
           </a>
         </div>

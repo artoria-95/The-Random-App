@@ -12,7 +12,7 @@ export default function Header() {
             src="https://i.pinimg.com/originals/ea/a1/ff/eaa1ffbf803f1c6b330dfd2d9a84d2f5.gif"
             className="nya"
           /> 
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <ul>
             <li className="change">{t("header.lang")}</li>
             <li onClick={()=> i18n.changeLanguage("en")}>English</li>

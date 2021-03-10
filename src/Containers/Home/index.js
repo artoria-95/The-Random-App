@@ -10,9 +10,7 @@ export default function Home() {
     "https://www.youtube.com/",
     "https://www.linkedin.com/notifications/"
   ];
-  function aleatoria(){
-    urls[Math.floor(Math.random()*urls.length)];
-  }
+  
 
   function noKitty(){
     console.log("click");
@@ -38,7 +36,7 @@ export default function Home() {
           <img src={cat} className="kitty" />
         </div>
         <div className="cat">
-          <a href={aleatoria}>
+          <a href={urls[Math.floor(Math.random()*urls.length)]}>
             <img src={cat} className="kitty"/>
           </a>
         </div>

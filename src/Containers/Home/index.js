@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import cat from "../../Assets/cat2.png";
 import "./home.css";
 import { useTranslation } from "react-i18next";
@@ -6,18 +6,18 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   const [t, i18n] = useTranslation("global");
   const urls = [
-    "https://web.whatsapp.com/",
     "https://github.com/",
     "https://www.youtube.com/",
-    "https://www.linkedin.com/notifications/",
+    "https://www.linkedin.com/notifications/"
   ];
-  
-//   function aleatoria(){
-//     var i = Math.round(Math.random()*(urls.length-1));
-//     window.location.href=urls[i];
-//     return false;
-// }// funciona con bugs
 
+  function noKitty(){
+    console.log("click");
+    alert('Oops! Wrong cat!')
+  }
+  
+  
+  //funciona pero no actualiza el boton
 
   // window.addEventListener('mousemove', (e)=>{
   //   console.log(e);
@@ -34,12 +34,13 @@ export default function Home() {
           <img src={cat} className="kitty" />
         </div>
         <div className="cat">
-          <a href={urls[Math.floor(Math.random()*urls.length)]} target="_blank">
-            <img src={cat} className="kitty" />
+          <a href={urls[Math.floor(Math.random()*urls.length)]}>
+            <img src={cat} className="kitty"/>
           </a>
         </div>
-        <div className="cat">
-          <img src={cat} className="kitty" />
+        <div className="cat" >
+          <button className="nokitty" onClick={noKitty}><img src={cat} className="kitty" /></button>
+        <div className="wrong">Oops! Wrong cat.</div>
         </div>
       </div>
     </div>

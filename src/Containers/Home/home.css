@@ -6,7 +6,7 @@
 
 .cat {
   background-color: transparent;
- 
+  cursor: pointer;
 }
 
 .cats-container {
@@ -30,7 +30,14 @@
   font-size: 20px;
   margin: 2rem;
 }
-
+.wrong {
+  display: none;
+}
+.nokitty {
+  border: transparent;
+  background-color: transparent;
+  cursor:pointer;
+}
 /* TESTING TEXT */
 /* .div1 {
   font-family: 'VT323', serif;

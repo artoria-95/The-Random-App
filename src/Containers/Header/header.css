@@ -16,10 +16,12 @@
   vertical-align: center;
   display: inline-block;
   font-size: 20px;
-  font-family: 'Mountains of Christmas', serif;
   color: rgb(253, 253, 168);
   position: relative;
   transition: 0.4s;
+  background-color: transparent;
+  padding: 5px;
+  margin: 5px;
 }
 
 .dropdown-content {
@@ -62,8 +64,3 @@ li:hover {
   background-color: unset;
 }
 
-button {
-  background-color: transparent;
-  padding: 5px;
-  margin: 5px;
-}
